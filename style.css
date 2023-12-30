@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../html/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    min-height: 100%;
+  }
+
+@font-face {
+    font-family: 'Digital-7';
+    src: url('../fonts/digital-7\ \(mono\).ttf') format('truetype');
+}
+#headerbox {
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+
+#headerbox {
+    color: white;
+    margin-bottom: 10px;
+
+
+}
+  #countdown {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(255, 0, 0);
+    font-family: 'Digital-7', Arial, sans-serif;
+    margin-top: 10px;
+  }
+
+
+  #countdownstyle {
+    padding: 40px;
+    color: white;
+    box-shadow: 0 0 20px rgb(255, 255, 255,0.5);
+  }
+
+input {
+    background-color: white;
+    border-radius: 2px purple;
+    padding: 10px 10px;
+}
+#clock {
+    color: white;
+}
+button {
+    background-color: rgb(2, 160, 2);
+    border: solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+}
+button:hover{
+    background-color: darkgreen;
+}
+
+#resetbutton{
+    background-color: rgb(255, 0, 0);
+    border: solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
+    align-items: center;
+}
+#resetbutton:hover{
+    background-color: darkred;
+}
+
+  #countdown {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(255, 0, 0);
+    font-family: 'Digital-7', Arial, sans-serif;
+    margin-top: 10px;
+  }
+
+
+  #countdownstyle {
+    padding: 40px;
+    color: white;
+    box-shadow: 0 0 20px rgb(255, 255, 255,0.5);
+  }
+
+input {
+    background-color: white;
+    border-radius: 2px purple;
+    padding: 10px 10px;
+}
+#clock {
+    color: white;
+}
+button {
+    background-color: rgb(2, 160, 2);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+}
+button:hover{
+    background-color: darkgreen;
+}
